@@ -46,7 +46,7 @@ public class Main {
         //Polymorphism används för att hitta växten och utföra vattenberäkningar
         for (Plant plant : plantList) {
             if (plantName.trim().equalsIgnoreCase(plant.getName())) {
-                JOptionPane.showMessageDialog(null, plant.getName() + " behöver " + plant.calculateWaterNeed() + "L av vätsketypen " + plant.getWaterType());
+                JOptionPane.showMessageDialog(null, plant.getName() + " behöver " + plant.calculateWaterNeed() + " av vätsketypen " + plant.getWaterType());
                 plantFound = true;
                 break;
             }

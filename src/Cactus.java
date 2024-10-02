@@ -4,8 +4,8 @@ public class Cactus extends Plant {
     }
 
     @Override
-    public double calculateWaterNeed() {
-        return 0.02;
+    public String calculateWaterNeed() {
+        return formatWaterNeed(0.02);
     }
 
     @Override

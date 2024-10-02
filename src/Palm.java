@@ -4,8 +4,8 @@ public class Palm extends Plant {
     }
     
     @Override
-    public double calculateWaterNeed() {
-        return 0.5 * getHeight();
+    public String calculateWaterNeed() {
+        return formatWaterNeed(0.5 * getHeight());
     }
 
     @Override

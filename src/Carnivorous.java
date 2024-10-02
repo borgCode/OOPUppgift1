@@ -4,8 +4,8 @@ public class Carnivorous extends Plant {
     }
 
     @Override
-    public double calculateWaterNeed() {
-        return 0.1 + (0.2 * getHeight());
+    public String calculateWaterNeed() {
+        return formatWaterNeed(0.1 + (0.2 * getHeight()));
     }
 
     @Override
